@@ -4,7 +4,7 @@
 
 이 분석은 리썰 컴퍼니(Lethal Company) 게임용 치트 프로그램의 구성 요소와 작동 원리를 분석한 내용입니다. 주요 구성 요소는 `SharpMonoInjector.dll` (인젝터)와 `ProjectGift.dll` (실제 치트 모듈)로 구성되어 있습니다.
 
-![image.png](attachment:137c572d-9a04-4080-9efc-f1cb480cf606:image.png)
+![image.png](./image.png)
 
 ## 1.1. 전투 및 생존 관련 기능
 
