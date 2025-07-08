@@ -1,36 +1,4 @@
 # Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1
-
-### 목차
-  1. [개요](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#1-%EA%B0%9C%EC%9A%94)
-     1.1 [전투 및 생존 관련 기능](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#11-%EC%A0%84%ED%88%AC-%EB%B0%8F-%EC%83%9D%EC%A1%B4-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EB%8A%A5)
-     - [돈 및 아이템 관련 기능](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#12-%EA%B2%BD%EC%A0%9C-%EB%B0%8F-%EC%95%84%EC%9D%B4%ED%85%9C-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EB%8A%A5)
-     - [비주얼 효과 비활성화](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#13-%EB%B9%84%EC%A3%BC%EC%96%BC-%ED%9A%A8%EA%B3%BC-%EB%B9%84%ED%99%9C%EC%84%B1%ED%99%94)
-  3. [인젝터(smi.exe)](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#2-%EC%9D%B8%EC%A0%9D%ED%84%B0-smiexe)
-     - [기본 기능](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#21-%EA%B8%B0%EB%B3%B8-%EA%B8%B0%EB%8A%A5)
-  4. [사용법](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#3-%EC%82%AC%EC%9A%A9%EB%B2%95-injectbat)
-  5. [치트 모듈 (ProjectGift.dll) 분석](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#4-%EC%B9%98%ED%8A%B8-%EB%AA%A8%EB%93%88-projectgiftdll-%EB%B6%84%EC%84%9D)
-     - [주요 클래스](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#41-%EC%A3%BC%EC%9A%94-%ED%8C%A8%EC%B9%98-%EC%98%88%EC%8B%9C)
-     - [Hacks 패키지](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#42-hacks-%ED%8C%A8%ED%82%A4%EC%A7%80)
-     - [Possession 패키지](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#43-possession-%ED%8C%A8%ED%82%A4%EC%A7%80)
-  6. [SharpmonoInjector.dll 분석](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#5-sharpmonoinjectordll)
-     - [프로세스 권한 획득 및 런타임 조작](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#51-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EA%B6%8C%ED%95%9C-%ED%9A%8D%EB%93%9D-%EB%B0%8F-%EB%9F%B0%ED%83%80%EC%9E%84-%EC%A1%B0%EC%9E%91)
-     - [Injector - 프로세스 이름 대상 찾기](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#52-injector---%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%9D%B4%EB%A6%84-%EB%8C%80%EC%83%81-%EC%B0%BE%EA%B8%B0)
-     - [Inject - DLL 주입 실행](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#53-inject---dll-%EC%A3%BC%EC%9E%85-%EC%8B%A4%ED%96%89)
-     - [ObtainMonoExports](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#54-obtainmonoexports)
-     - [GetRootDomain](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#55-getrootdomain)
-     - [GetImageFromAssembly](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#56-getimagefromassembly)
-     - [GetClassFromName](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#57-getclassfromname)
-     - [GetMethodFromName](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#58-getmethodfromname)
-  7. [핵 개발에 사용된 기능들](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#6-%ED%95%B5-%EA%B0%9C%EB%B0%9C%EC%97%90-%EC%82%AC%EC%9A%A9%EB%90%9C-%EA%B8%B0%EB%8A%A5%EB%93%A4)
-     - [Harmony 라이브러리](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#61-harmony-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC)
-     - [리플렉션](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#62-%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98)
-     - [DLL Injection(SharpMonoInjector)](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#63-dll-injectionsharpmonoinjector)
-     - [네트워크 프로토콜 조작](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#64-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C-%EC%A1%B0%EC%9E%91)
-  8. [분석 결과 및 결론](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#7-%EB%B6%84%EC%84%9D-%EA%B2%B0%EA%B3%BC-%EB%B0%8F-%EA%B2%B0%EB%A1%A0)
-     - [기술적 특징](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#71-%EA%B8%B0%EC%88%A0%EC%A0%81-%ED%8A%B9%EC%A7%95)
-     - [보안 측면](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#72-%EB%B3%B4%EC%95%88-%EC%B8%A1%EB%A9%B4)
-     - [기능 범위](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#73-%EA%B8%B0%EB%8A%A5-%EB%B2%94%EC%9C%84)
-
      
 # **1. 개요**
 
