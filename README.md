@@ -1,7 +1,7 @@
 # Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1
 ### 목차
   1. [개요](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#1-%EA%B0%9C%EC%9A%94)
-	1.1. [전투 및 생존 관련 기능](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#11-%EC%A0%84%ED%88%AC-%EB%B0%8F-%EC%83%9D%EC%A1%B4-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EB%8A%A5)
+	- [전투 및 생존 관련 기능](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#11-%EC%A0%84%ED%88%AC-%EB%B0%8F-%EC%83%9D%EC%A1%B4-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EB%8A%A5)
 	1.2. [돈 및 아이템 관련 기능](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#12-%EA%B2%BD%EC%A0%9C-%EB%B0%8F-%EC%95%84%EC%9D%B4%ED%85%9C-%EA%B4%80%EB%A0%A8-%EA%B8%B0%EB%8A%A5)
 	1.3. [비주얼 효과 비활성화](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#13-%EB%B9%84%EC%A3%BC%EC%96%BC-%ED%9A%A8%EA%B3%BC-%EB%B9%84%ED%99%9C%EC%84%B1%ED%99%94)
   2. [인젝터(smi.exe)](https://github.com/hbeooooooom/Lethal_Company_Cheat_Tool-Analysis-Project-Gift-v1.0.1?tab=readme-ov-file#2-%EC%9D%B8%EC%A0%9D%ED%84%B0-smiexe)
